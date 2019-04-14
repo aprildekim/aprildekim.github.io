@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-	background-color: beige;
+	background-color: orange;
 	grid-area: nav;
 }
 
@@ -39,7 +39,7 @@ nav {
 }
 
 .right {
-	background-color: orange;
+	background-color: beige;
 	grid-area: right;
 }
 
