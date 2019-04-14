@@ -1,0 +1,49 @@
+.container {
+	display: grid;
+	max-width: 900px;
+	position: relative;
+	margin: auto;
+	grid-gap: 10px;
+	grid-template-areas: "header header header"
+						 "nav nav nav"
+						 "left center right"
+						 "footer footer footer";
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 100px 70px 400px 100px;
+}
+
+h1, h2 {
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+}
+
+header {
+	background-color: dodgerblue;
+	grid-area: header;
+}
+
+nav {
+	background-color: beige;
+	grid-area: nav;
+}
+
+.left {
+	background color: beige;
+	grid-area: left;
+}
+
+.center {
+	background-color: beige;
+	grid-area: center;
+}
+
+.right {
+	background-color: orange;
+	grid-area: right;
+}
+
+footer {
+	background-color: dodgerblue;
+	grid-area: footer;
+}
