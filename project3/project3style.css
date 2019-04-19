@@ -1,0 +1,89 @@
+.wall1 {
+	background: #e6e7e8;
+	height: 650px;
+	width: 500px;
+	transform: skewY(10deg);
+	position: absolute;
+	top: -50px;
+	left: -5px;
+	z-index: 2;
+}
+
+.wall2 {
+	background: #a8aaad;
+	height: 650px;
+	width: 800px;
+	transform: skewY(-20deg);
+	position: absolute;
+	top: -151px;
+	left: 495px;
+	z-index: 1;
+}
+
+.shadow {
+	background: #f3a367;
+	height: 360px;
+	width: 1150px;
+	transform: rotate(5deg);
+	position: absolute;
+	top: 335px;
+	left: 507px;
+}
+
+.textbox {
+	background: white;
+	height: 200px;
+	width: 325px;
+	border: dashed;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 3;
+}
+
+.water {
+	background: #40c4e0;
+	opacity: .70;
+	height: 50px;
+	width: 103%;
+	position: absolute;
+	top: 821px;
+	left: -50px;
+	z-index: 5;
+
+	/*Transition*/
+}
+
+/*Explanation*/
+h1 {
+	font-family: avenir;
+	font-weight: 300;
+	font-size: 9.5pt;
+	height: 180px;
+	width: 280px;
+	position: absolute;
+	top: 110px;
+	left: 105px;
+	z-index: 4;
+}
+
+/*Goal*/
+h2 {
+	font-family: avenir;
+	font-weight: 300;
+	font-size: 9.5pt;
+	position: absolute;
+	left: 1580px;
+	z-index: 4;
+}
+
+/*Starting point*/
+h3 {
+	font-family: avenir;
+	font-weight: 300;
+	font-size: 9.5pt;
+	position: absolute;
+	top: 790px;
+	left: 1630px;
+	z-index: 4;
+}
