@@ -59,8 +59,8 @@ h1:hover:before {
 	opacity: .70;
 	top: 94.2%;
 	left: -50px;
-	z-index: 3;
-	transition-origin: bottom;
+	z-index: 4;
+	/**transition-origin: bottom;**/
 }
 
 /**
