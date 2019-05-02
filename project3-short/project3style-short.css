@@ -4,6 +4,38 @@ body {
 	background-attachment: fixed;
 }
 
+.wall1 {
+	background: #e6e7e8;
+	height: 700px;
+	width: 550px;
+	transform: skewY(10deg);
+	position: absolute;
+	top: -90px;
+	left: -5px;
+	z-index: 2;
+}
+
+.wall2 {
+	background: #a8aaad;
+	height: 700px;
+	width: 700px;
+	transform: skewY(-20deg);
+	position: absolute;
+	top: -169px;
+	left: 545px;
+	z-index: 1;
+}
+
+.shadow {
+	background: #f3a367;
+	height: 304px;
+	width: 1050px;
+	transform: rotate(4deg);
+	position: absolute;
+	top: 391.5px;
+	left: 554px;
+}
+
 .textbox {
 	background: white;
 	height: 200px;
@@ -51,19 +83,6 @@ h1:hover:before {
 	height: 100%;
 }
 
-#waterLevel {
-	position: absolute;
-	height: 50px;
-	width: 103%;
-	background-color: #40c4e0;
-	opacity: .70;
-	top: 94.2%;
-	left: -50px;
-	z-index: 3;
-	transition-origin: bottom;
-}
-
-/**
 .water {
 	height: 50px;
 	width: 103%;
@@ -75,10 +94,9 @@ h1:hover:before {
 	left: -50px;
 	z-index: 3;
 	animation: waterLevel 30s;
-	animation-delay: 5s;
+	animation-delay: 3s;
 	animation-fill-mode: forwards, none;
 }
-**/
 
 @-webkit-keyframes waterLevel {
 	0% {
@@ -107,7 +125,7 @@ h3 {
 	font-weight: 300;
 	font-size: 9.5pt;
 	position: absolute;
-	top: 825px;
+	top: 820px;
 	left: 1630px;
 	z-index: 4;
 }
