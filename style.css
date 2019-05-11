@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: "PT Mono";
+	font-size: 24px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+.purpose {
+	width: 900px;
+	position: fixed;
+	top: 47%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+}
