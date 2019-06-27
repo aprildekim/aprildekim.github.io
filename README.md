@@ -1,2 +1,2 @@
 # aprildekim.github.io
-GD for the Web – April Kim
+April Kim's Main Repository for Academic Purposes
